@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FBEFA3">
+  <meta name="description" content="Notes — ruang kecil untuk menyimpan ide, rencana, dan catatan harianmu.">
+  <title>Notes — Your Little Idea Space</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <app-header></app-header>
+    <app-navbar></app-navbar>
+    <main class="page-main">
+      <hero-section></hero-section>
+      <section class="workspace" aria-label="Ruang catatan">
+        <note-form></note-form>
+        <note-list></note-list>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <span>Made with a little bit of ✿ and a lot of ideas.</span>
+      <span>Notes © <span id="year"></span></span>
+    </footer>
+  </div>
+</body>
+</html>
